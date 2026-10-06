@@ -6,6 +6,7 @@
     font-optical-sizing: auto;
     font-weight: 600px;
     font-style: normal;
+    overflow-x: hidden;
     
 }
 
@@ -21,7 +22,7 @@ background: linear-gradient(175deg, rgba(255, 179, 0, 1) 0%, rgba(255, 255, 255,
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: #000000;
+    align-content: center;
 
 }
 
@@ -32,6 +33,22 @@ h1{
 
 h2{
     font-size: 50px;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+li a, .bgimg{
+    color: #ffffff;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    justify-self: space-evenly;
 }
 
 .googleMaps{
