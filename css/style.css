@@ -62,3 +62,12 @@ main{
     padding: 20px;
 
 }
+
+footer{
+    display: flex;
+    
+}
+
+.appointment{
+    max-width: 50%;
+}
