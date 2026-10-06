@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Cardo:ital,wght@0,400;0,700;1,400&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+
+}
+
+.bgimg{
+    background-image: url(../img/Koenigsegg\ Agera\ RS-1.webp);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+
+}
+
+h1{
+    font-size: 120px;
+    font-weight: 1200px;
+
+}
+
+h2{
+    font-size: 50px;
+}
